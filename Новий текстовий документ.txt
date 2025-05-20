@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MC Хостинг</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <!-- Header -->
+  <header class="bg-gray-800 p-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-green-400">MC Хостинг</h1>
+      <nav class="space-x-4">
+        <a href="#plans" class="hover:text-green-300">Тарифы</a>
+        <a href="#contact" class="hover:text-green-300">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-minecraft bg-cover">
+    <h2 class="text-4xl font-bold mb-4">Запусти свой Minecraft сервер уже сегодня!</h2>
+    <p class="text-lg mb-6">Быстро. Надежно. Недорого.</p>
+    <a href="#plans" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full text-lg transition">Выбрать тариф</a>
+  </section>
+
+  <!-- Tariff Plans -->
+  <section id="plans" class="py-20 bg-gray-800">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-bold text-center mb-12">Наши тарифы</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Plan 1 -->
+        <div class="bg-gray-700 p-6 rounded-xl text-center">
+          <h4 class="text-xl font-semibold mb-4">START</h4>
+          <p class="text-3xl font-bold mb-2">199₽/мес</p>
+          <ul class="mb-6 space-y-2">
+            <li>1 ГБ RAM</li>
+            <li>SSD хостинг</li>
+            <li>Поддержка 24/7</li>
+          </ul>
+          <button class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded">Заказать</button>
+        </div>
+
+        <!-- Plan 2 -->
+        <div class="bg-gray-700 p-6 rounded-xl text-center border-4 border-green-500">
+          <h4 class="text-xl font-semibold mb-4">PRO</h4>
+          <p class="text-3xl font-bold mb-2">399₽/мес</p>
+          <ul class="mb-6 space-y-2">
+            <li>3 ГБ RAM</li>
+            <li>Полный доступ к FTP</li>
+            <li>Бэкапы</li>
+          </ul>
+          <button class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded">Заказать</button>
+        </div>
+
+        <!-- Plan 3 -->
+        <div class="bg-gray-700 p-6 rounded-xl text-center">
+          <h4 class="text-xl font-semibold mb-4">ULTRA</h4>
+          <p class="text-3xl font-bold mb-2">799₽/мес</p>
+          <ul class="mb-6 space-y-2">
+            <li>6 ГБ RAM</li>
+            <li>Безлимитные слоты</li>
+            <li>DDoS защита</li>
+          </ul>
+          <button class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded">Заказать</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="py-20">
+    <div class="container mx-auto max-w-xl text-center">
+      <h3 class="text-3xl font-bold mb-6">Связаться с нами</h3>
+      <form class="space-y-4">
+        <input type="text" placeholder="Ваше имя" class="w-full p-3 rounded bg-gray-800 border border-gray-600" />
+        <input type="email" placeholder="Ваш Email" class="w-full p-3 rounded bg-gray-800 border border-gray-600" />
+        <textarea placeholder="Ваше сообщение" rows="4" class="w-full p-3 rounded bg-gray-800 border border-gray-600"></textarea>
+        <button type="submit" class="bg-green-500 hover:bg-green-600 px-6 py-3 rounded text-white">Отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-center p-6 text-sm text-gray-400">
+    © 2025 MC Хостинг. Все права защищены.
+  </footer>
+</body>
+</html>
